@@ -1,0 +1,11 @@
+
+
+if (dataPlan.start_date) {
+            const endDate = setMonth(
+                parseISO(dataPlan.start_date),
+                Number(getMonth(parseISO(dataPlan.start_date))) +
+                    inputValue.duration
+            );
+            // Salva no state a data de termino da matricula
+            setDataPlan({ ...dataPlan, end_date: endDate });
+        }
