@@ -100,9 +100,9 @@ Feito isso, você pode continuar o processo de instalação.
  
  Se aparecer um novo erro, crie uma issue neste respositório, em breve o bug será resolvido.
 
-#### Browser
+#### Web
 
- Após a instalação e execução da API, repita o primeiro passo, porém, agora, na pasta web
+ Após a instalação e execução da API, repita o primeiro passo, porém, agora, na pasta App
 
  1ª Para instalar
  
